@@ -1,0 +1,47 @@
+Comandos:
+
+- "Git Bash Here" em uma pasta com um repositório já criado: abre o Git dentro da pasta do repositório.
+
+- "git status": esse comando nos mostra o estado do repositório selecionado.
+
+Áreas do Git:
+
+- 1ª: Diretório de trabalho:
+    
+    Arquivos:
+
+        Modificações;
+        Excluídos;
+        Adicionados.
+
+"git add" nos leva à próxima área:
+
+- 2ª: Preparação:
+
+    Arquivos adicionados e prontos para serem versionados.
+
+"git commit" nos leva à próxima área:
+
+- 3ª: Repositório:
+
+    Arquivos salvos.
+
+Comandos:
+
+- "git add": adiciona arquivos à área de preparação. Exemplo: git add nome do arquivo.
+
+- "git add .": adiciona todos os arquivos não rastreados / pendentes à área de espera. Exemplo: git add .
+
+- "clear": limpa o Terminal.
+
+- "git commit -m 'Mensagem'": alocação, no repositório local, dos arquivos na área de espera.
+
+- P. S.: O "-m" representa uma mensagem.
+
+- "gi log": mostra o histórico de "commits".
+
+- "git push origin main": envio dos arquivos para o repositório remoto.
+
+P. S.: "origin" diz respeito à ramificação escolhida para receber o "commit". Exemplo: "origin main".
+
+- "git pull origin main": faz o "download" dos "commits" feitos no repositório remoto.
