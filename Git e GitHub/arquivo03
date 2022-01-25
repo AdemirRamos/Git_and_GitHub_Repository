@@ -1,0 +1,52 @@
+Criando um repositório localmente e adicionando-lo ao GitHub:
+
+- Primeiro  criamos a pasta para conter o repositório;
+- Depois fazemos um "Git Bash Here" dentro da pasta criada para receber o repositório.
+
+Criando o "repositório Git" direto na pela interface do Git:
+
+- Use o comando "git init" para criar o repositório local.
+
+P. S.: as palavras "master" e "main", nesse caso, terão o mesmo significado - dizem respeito à ramificação principal do projeto. - Por conta de questões raciais ligadas à palavra "master" (uma palavra usada para se referir a senhores de engenho donos de escravos), ela carrega um estigma cujo o qual faz com que algumas pessoas se reservem ao direito de não usá-la. (...) No caso do Git, a palavra "master" jamais fora trocada por "main".
+
+- "git branch -M main": altera a ramificação principal do Git de "master" para "main".
+
+Adicionando um arquivo ao repositório local criado:
+
+- Basta criar o arquivo e salvá-lo na pasta que contem o repositório.
+
+Clonando o repositório local e conectando-lo com o repositório remoto:
+
+- Use o comando "git remote add origin nome do repositório".
+
+Adicionando um arquivo ao repositório remoto:
+
+- Basta usar o comando "git push origin main".
+
+Por que usar "branches"?:
+
+- Caso seja necessário realizar alguma alteração em um programa ou aplicativo, o ideal é não fazer essa mudança no arquivo principal justamente para evitar erros que inviabilizem a utilização do serviço por parte dos usuários.
+
+Criando uma nova ramficação:
+
+- "git branch nome da ramificação": cria uma nova ramificação.
+
+- "git branch": mostra todas as "branches" criadas para o repositório em questão.
+
+P. S.: Em verde, aparecerá a ramificação na qual estamos inseridos.
+
+- "git checkout nome da ramificação para a qual se deseja trocar": troca da ramificação principal para a ramificação selecionada.
+
+P. S.: "git log", agora, mostrará os "commits" feitos em cada "branch" - caso tenham sido feitos "commits" em "branches" diferentes.
+
+Extra:
+
+- "code .": abre o VS Code na pasta selecionada.
+
+Mesclando alterações através de diferentes ramificações:
+
+- Selecione a ramificação para a qual se deseja trazer as alterações e use o comando "git merge nome da 'branch' onde estão as mudanças".
+
+- Após a mesclagem, basta usar o comando "git push origin main" para adicionar as mudanças no repositório remoto da "branch main".
+
+P. S.: Os "commits" feitos na ramificação de onde os arquivos foram trazidos, também serão importados para o "branch" que os recebem.
