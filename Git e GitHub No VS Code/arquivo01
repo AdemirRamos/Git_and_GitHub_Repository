@@ -1,0 +1,19 @@
+Checando as configurações e "login" do GitHub através do Terminal do VS Code:
+
+- Tornando o "Git Bash" padrão: na parte superior direita da janela do Terminal, clique na seta ao lado do sinal de "+" e escolha o "Git Bash" como padrão.
+
+Configurando o "user email":
+
+- Use o seguinte comando (sem aspas): "git config --global user.email 'email123@gmail.com'".
+
+Configurando o "user name":
+
+- Use o seguinte comando (sem aspas): "git config --global user.name 'Ademir Ramos'".
+
+Criando uma nova ramificação ("branch"):
+
+- Na parte inferior esquerda da interface do VS Code, basta clicar no símbolo ao lado de "main" e criar a nova ramificação.
+
+- Mesclando ramificações:
+
+- Basta clicar nos 3 pontos no menu do código fonte e selecionar a opção "branch"; dentro de "branch", selecione "merge branch".
