@@ -1,0 +1,86 @@
+- Ignorar Arquivos
+
+Ao "comitar" arquivos em um repositório, pode acontecer de haver alguns arquivos que não queremos ou devemos incluir no "commit".
+
+Para evitar que esses arquivos sejam "comitados" por engano, podemos usar um arquivo especial que indica ao Git que determinados arquivos devem ser ignorados, e não rastreados.
+
+Para tal, usamos o arquivo ".gitignore".
+
+- Arquivo ".gitignore"
+
+Um arquivo ".gitignore" é um arquivo de texto plano no qual cada linha especifica um padrão de arquivos ou diretórios a ignorar.
+
+Geralmente, o colocamos no diretório raiz de um repositório, mas é possível colcá-lo em outro lugar (mas essa prática não é recomendável).
+
+P. S.: Arquivos que começem com ponto, no Git, serão arquivos ocultos.
+
+- Quais arquvios ignorar?
+
+Recomendamos ignorar arquivos de tipos como:
+
+* Arquivos de log;
+* Arquivos que contenham senhas, credenciais ou informações confidenciais;
+* Arquivos de sistema e temporários;
+* Arquivos gerados, como executáveis de teste;
+* Saídas compiladas (executáveis, et cetera);
+* Arquivos pessoais;
+
+Entre outros.
+
+- Arquivo ".gitignore" global
+
+Podemos criar um arquivo global para ignorar arquivos e diretórios em todos os projetos simultaneamente:
+
+    touch ~/ .gitignore
+    git config --global core.excludesFile ~/.gitignore
+
+Agora, todos os repositórios git ignoram os arquivos colocados no arquivo ~/.gitignore - que é global.
+
+- Padrões de correspondência
+
+Nomes de arquivos literais
+
+* .tempArq
+
+Diretórios
+
+* temp/
+
+Caracteres-curinga
+
+- * 0 ou mais caracteres (exceto /)
+- ? Um único caractere (exceto /)
+- ! Negação (negar ignore)
+- # Comentários no arquivo gitignore
+
+- Exemplos de padrões
+
+arqTest #ignora o arquivo (ou diretório) arqTest
+
+*.log #ignora todos os arquivos com a extensão .log
+
+arq* #ignora todos os arquivos iniciados com arq
+
+?rq #ignora todos os arquivos não importando o primeiro caractere, mas que possua rq na sequência
+
+dirTeste/ #ignora o diretório dirTeste e seus arquivos
+
+**/dirTeste #ignora todos os diretórios de nome dirTeste
+
+!saída.log #não ignora o arquivo saída.log
+
+Dicas importantes
+
+1. Não é necessário "comitar" o próprio arquivo .gitignore, a não ser que se queira compartilhar as suas entradas com outros usuários no projeto.
+
+2. Mas é recomendável!
+
+3. Evite criar muitos arquivos .gitignore. Se possível, trabalhe com arquivo global.
+
+- Criando o arquivo .gitignore:
+
+- touch .gitignore;
+- o comando ls -a mostra o arquivo .gitignore - diferente de ls;
+- echo <nome do arquivo> >> .gitignore: faz com que o nome do arquivo/pasta sejam enviados para o .gitignore;
+- caso seja usado apenas um sinal de maior, o arquivo .gitignore terá o seu texto substituído pelo texto do arquivo/pasta no comando;
+- o comando cat .gitignore nos mostra o que está dentro do arquivo .gitignore.
