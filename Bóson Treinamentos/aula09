@@ -13,4 +13,3 @@ P. S.: "rm" significa "remove".
 - O comando (sem aspas) "git checkout número do 'commit'~1 nome do arquivo" restaura um arquivo excluído.
 
 Exemplo: "$ git checkout bfb4~1 arquivo.txt". - P. S.: Sem o nome do arquivo, serão restaurados todos os arquivos deletados no diretório.
-
