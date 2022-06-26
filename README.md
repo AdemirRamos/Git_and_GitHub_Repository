@@ -1,4 +1,4 @@
-# Git_and_GitHub_Repository_TC
+# Git_and_GitHub_Repository
 
-Este se trata apenas de um pequeno repositório com anotações sobre "Git", "Github" e "Git" e "GitHub" no "Visual Studio Code".
-As anotações são provenientes das aulas dos canais: Thai Code; Bóson Treinamentos; e .
+Este é um repositório com anotações sobre "Git", "Github" e "Git e GitHub no Visual Studio Code".
+As anotações são provenientes das aulas dos canais: Thai Code; Bóson Treinamentos; e Tiago Matos.
