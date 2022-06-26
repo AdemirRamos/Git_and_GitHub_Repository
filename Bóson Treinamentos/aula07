@@ -1,0 +1,23 @@
+Curso de Git - Aula 07 - Histórico e Versões Com Os Comandos "git log" e "git show"
+
+- "Log do Commit"
+
+O "log do commit" lista as seguintes informações:
+
+* Nome do "commit" (via hash)
+* Autor
+* E-mail
+* Data
+* Descrição
+
+- O comando (sem aspas) "start nome do editor de códigos aqui pode ir o nome do arquivo" abre o seu editor de código (com o arquivo).
+
+- O comando (sem aspas) "git log nome do arquivo" traz o histórico de "commits" relacionados somente ao arquivo selecionado.
+
+- Vizualizar Alterações Realizadas
+
+Podemos visualizar as alterações realizadas nos arquivos de um projeto, com detalhes, usando o comando "git show":
+
+"$ git show (nome do 'commit')"
+
+O nome do "commit" pode ser obtido com o comando "git log", e basta usar os quatro primeiros caracteres da "hash" para realizar a consulta. Se não fornecido, serão mostrados detalhes do último arquivo consolidado.
