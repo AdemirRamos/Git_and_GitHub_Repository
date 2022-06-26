@@ -1,0 +1,103 @@
+Curso de Git - Aula 01 - O que é um Sistema de Controle de Versão?
+
+- O que é Controle de Versão?
+
+Controle de Versão (CV) trata do gerenciamento de versões de um projeto, incluindo documentos, código-fonte, programas, et cetera.
+
+Cada alteração nos arquivos de um projeto deve ser rastreada.
+
+CV registra essas alterações e fornece meios de desfazê-las, se necessário.
+
+Muitas vezes chamado de Controle de Revisão.
+
+- Por que precisamos do Controle de Versão?
+
+Tarefas comuns a trabalhos de criação de conteúdo:
+
+* Criar
+* Salvar
+* Editar
+* Salvar novamente
+* Abrir para revisão
+* Editar novamente
+* Salvar outra vez
+* Comparar arquivos
+* Compartilhar com colegas
+* Colegas editam
+* Colegas salvam
+
+- Por que precisamos de Controle de Versão?
+
+* Como sabemos o que foi modificado em cada revisão?
+* Ou por que tais modificações foram revisadas?
+* E se eu precisar desfazer alguma alteração?
+* Ou ainda, saber quem realizou alterações
+* Como evitar que uma alteração seja sobrescrita por outra pessoa?
+
+- O que é Sistema de Controle de Versão?
+
+É uma ferramenta para a realização de controle de versão efetivo.
+
+Ela permite navegar pelas alterações com facilidade e realizar "rollback" para versões anteriores.
+
+Permite o trabalho em grupo sobre um projeto - várias pessoas podem trabalhar em cópias do (s) projeto (s) ("branches") e unir suas alterações posteriormente ("merge")
+
+- Problemas que um SCV resolve:
+
+* Controle de cada versão em um projeto
+* Elimina arquivos e nomes duplicados
+* Permite saber qual modificação foi realizada, em cada momento do tempo
+* Comparação de cada versão de arquivos
+* Compartilhamento de arquivos de projeto simplificado
+* Múltiplos usuários podem trabalhar nos mesmos arquivos
+* Desfazer alterações que não resultaram em melhoria (s)
+
+- Controle de Revisão com pastas e arquivos
+
+Antes do surgimento de sistema de controle de versão, o padrão era simplesmente criar cópias de arquivos e renomeá-las de acordo com a "versão do documento.
+
+Tipos de sistemas de Controle de Versão:
+
+Existem três categorias principais de sistemas de controle de versão:
+
+* SCV Local
+* SCV Centralizado (Cliente-Servidor)
+* SCV Distribuído
+
+- Sistemas de Controle de Versão Locais
+
+* Foram os primeiros SCV criados, para gerenciamento de código-fonte.
+* Registram as alterações realizadas em arquivos em um banco de dados, armazenado localmente.
+* Todas as alterações ficam, assim armazenadas em um único computador.
+* Trabalho em equipe é muito dificultado.
+* Exemplos:
+
+    * SCCS - Source Code Controle System (AT&T)
+    * RCC - Revision Control System (Open Source)
+
+- Sistemas de Controle de Versão Centralizados
+
+* O histórico de alterações é armazenado em um servidor, acessado por clientes.
+* Permite, assim, trabalho em equipe.
+* Problemas no servidor podem acabar com o trabalho.
+* Necessita de conexão de rede constante.
+* Arquivos somente poderiam ser acessados por um usuário por vez na maioria dos sistemas (há exceções).
+* Exemplos:
+
+    * Concurrent Version System (CVS)
+    * Apache Subversion (SVN)
+
+- Sistemas de Controle de Versão Distribuídos
+
+* Similares aos sistemas centralizados, porém sem servidor central para armazenas histórico de alterações.
+* Cada cliente possui cópia do repositório e do histórico de alteraçãoes.
+* Chance de perder o projeto ou partes dele é mínima.
+* Alimenta o conceito de "forking" - clonar um projeto - a fim de realizar alterações e criar um novo projeto.
+* Não necessita de conexão de rede permanentemente.
+* Exemplos:
+
+    * BitKeeper
+    * Git
+    * Mercurial
+
+- Fluxo de Operações Básico em um SCV: Master -> Branch -> Merge -> Master
