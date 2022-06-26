@@ -1,0 +1,55 @@
+Curso de Git - Aula 06 - Curso de Git - Trabalhar Com Repositórios - Comando "git init"
+
+- Repositórios
+
+Repositório é um local de armazenamento onde o projeto e suas alterações são mantidas.
+
+Na prática, é uma pasta comum no sistema.
+
+Para cada projeto gerenciado pelo Git, um repositório é configurado.
+
+Para cada projeto novo, seguimos os seguintes passos:
+
+1. Criar um diretório para armazenar o projeto;
+2. Entrar no diretório (opcional);
+3. Inicializar o repositório Git.
+
+- Diretórios
+
+É criado um subdiretório oculto (".git"), que guardará os dados de alteração e "snapshots".
+
+A área fora do diretório ".git" é o Diretório de Trabalho, onde ficam armazenados os arquivos que você irá manipular. Ou seja, é a área onde interagimos diretamente com os arquivos do projeto.
+
+- Staging Area:
+
+Local para onde os arquivos vão antes de um "snapshot" ser criado.
+
+Somente os arquivos da "staging area" vão para um "snapshot".
+
+Selecionamos os arquivos desejados no diretório de trabalho.
+
+- Commits
+
+* "Snapshot" do projeto em um determinado momento, com informações sobre o autor do conteúdo e quem o realizou.
+* O estado anterior do proejto é denominado "pai". "Commits" são ligados entre si por conexões pai-filho.
+* O conjunto de "commits" relacionados entre si por parternidade é chamdo de "branch" (ramo).
+* Um "commit" pode ter dois pais, se for criado pela mescla de dois "branches".
+
+- Identificação do "Commit":
+
+Identificamos um "commit" pelo seu nome, que é uma "string" de 40 caracteres obtida pelo "hash" (SHA1) do "commit".
+
+- O comando (sem aspas) "ls -a" mostra os arquivos ocultos em um diretório.
+
+- Se pode executar uma série de comandos de uma única vez, apenas atentando-se para separá-los por espaços.
+
+- Para se renomear um arquivo, usamos o comando (sem aspas) "mv nome do arquivo novo nome do arquivo";
+- Exemplo: "$ mv nome-antigo.txt novo-nome.txt".
+
+- O comando (sem aspas) "git add *" adiciona todos os arquivos não rastreados;
+- Já o comando (sem aspas) "git add *.txt" adiciona todos os arquivos de extensão ".txt" não rastreados.
+
+- Retirando um arquivo da "staging area" (sem aspas): "git rm --cached nome do arquivo"
+
+- Excluindo uma pasta (sem aspas): "rm -rf nome da pasta/". | Exemplo: "$ rm -rf pasta-aleatória/".
+
