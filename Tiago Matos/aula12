@@ -1,0 +1,21 @@
+Curso de Git e GitHub - Aula 12 - Iniciando Com o GitHub
+
+- git push endereço do repositório main -> faz com que tudo o que está no repositório local seja enviado para o repositório remoto na "branch main".
+
+- Criando um pseudônimo para o endereço do seu repositório:
+
+(Sem aspas): "git remote add origin endereço do seu repositório".
+
+P. S.: O comando (sem aspas) "git remote -v" nos mostra o pseudônimo do repositório remoto do projeto.
+
+- Caso se deseje clonar um repositório com um determinado nome, basta usar o comando (sem aspas):
+- "git clone endereço do repositório novo nome do repositório".
+
+- Nota: O comando (sem aspas) "rm -rf nome da pasta(/)" é usado para apagar pastas com arquivos dentros;
+- Nota: Já o comando "rmdir" apaga pastas vazias.
+
+- IMPORTANTE: O comando (sem aspas):
+
+- "git pull origin main" faz com que as atualizações na "branch main" de repositório remoto sejam trazidas para o repositório local.
+
+P. S.: Ao se clonar um repositório, automaticamente, o pseudônimo "origin" será criado.
