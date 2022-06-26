@@ -8,7 +8,7 @@ Existe mais de uma maneira de se fazer isso. Uma delas é o emprego do comando "
 
 - Comando "git reset":
 
-Sintaxe (sem aspas e parênteses): "git reset (modo) (arquivo | 'commit')".
+Sintaxe (sem aspas e parênteses): "git reset (modo) (arquivo | 'commit')". | Exemplo: "git reset --mixed arquivo.txt"
 
 O comando "git reset" permite desfazer alretações.
 
@@ -31,7 +31,7 @@ Para descartar "commits" em uma "branch" pública, deve-se usar o comando "git r
 O "git reset" possui três modos principais de invocação, correspondendo aos três estados internos do Git (árvores):
 
 * --soft
-* --mixed (padrão)
+* --mixed (padrão - pode ser escrito facultativamente caso se deseje usá-lo)
 * --hard
 
 O Git ainda possui outros modos adicionais:
