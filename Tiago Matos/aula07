@@ -1,0 +1,24 @@
+Curso de Git e GitHub - Aula 07 - Desfazer "Commit"
+
+- 3 Maneiras de se desfazer "commits":
+
+- checkout: é a mais segura delas; 
+- revert: é um pouco menos segura que a opção anterior;
+- reset : é o menos seguro dos três.
+
+- O "&&" (sem aspas) permite juntar vários comandos em uma única linha.
+
+- checkout: "git checkout número do 'commit'" -> retorna até o 'commit' especificado - que, nesse caso, será o 'main temporário';
+- checkout main: "git checkout main" -> retorna até o ponto inicial - último 'commit' registrado;
+
+P. S.: Nos casos acima, os arquivos e pastas serão modificados de acordo com o 'commit main'. 
+
+- revert: "git revert número do 'commit'" -> desfaz o 'commit' especificado mas não desfaz todos os 'commits' posteriores;
+
+P. S.: A ação acima, por si só, já um 'commit';
+P. S.: Caso os 'commits' anteriores estejam ligados ao 'commit' desfeito, haverá um ou mais erros.
+
+- reset: "git reset" -> retrocede até o 'commit' especificado mas algumas alterações permanecerão nos arquivos/pastas.
+
+P. S.: Essas alterações não estarão rastreadas;
+P. S.: Caso seja usada a bandeira ("flag") "--hard" (sem aspas), os 'commits' serão apagados até do histórico.
