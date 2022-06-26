@@ -1,0 +1,9 @@
+Curso de Git e GitHub - Aula 10 - Fundindo "Branches"
+
+- Nota: No Terminal, ao se pressionar a tecla "tab", serão mostradas ações compatíveis com o que for digitado.
+- Nota: shift + : faz com que aparecam os dois pontos para possibilitar a inserção de comandos - por exemplo, no "git log".
+
+- Fundindo "Branches":
+
+* Para fundir "branches", você deve ir até a "branch-destino" (normalmente "main");
+* Digite o comando (sem aspas) "git merge nome da 'branch' a ser fundida".
