@@ -1,0 +1,10 @@
+Curso de Git e GitHub - Aula 09 - Criando "Branches"
+
+- O comando (sem aspas) "git branch" mostra todas as "branches" do repositório. - Os asterisco indica em qual "branch" você está;
+- O comando (sem aspas) "git branch qualquer nome" cria um nova "branch";
+- O comando (sem aspas) "git checkout nome da 'branch'" nos desloca para a "branch" especificada;
+- O comando (sem aspas) "git branch -d nome da 'branch'" deleta a "branch" selecionada;
+
+P. S.: Caso a "branch" a ser deletada tenha arquivos modificados (sem terem recebido 'commit'), a "branch" não será deletada.
+
+- O comando (sem aspas) "git branch -D nome da 'branch'" deleta uma "branch" mesmo que ela tenha arquivos modificados.
