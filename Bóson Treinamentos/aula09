@@ -1,0 +1,16 @@
+Curso de Git - Aula 09 - Como Excluir e Restaurar Arquivos
+
+- O comando (sem aspas) "cat nome do arquivo" nos mostra o conteúdo do arquivo selecionado.
+
+- O comando (sem aspas) "git rm nome do arquivo" exclui o arquivo selecionado.
+
+P. S.: "rm" significa "remove".
+
+- Para restaurar um arquivo, é preciso o seu número do "commit".
+
+- O comando (sem aspas) "git log --diff-filter=D --summary" nos mostra um sumário (resumo) de arquivos deletados.
+
+- O comando (sem aspas) "git checkout número do 'commit'~1 nome do arquivo" restaura um arquivo excluído.
+
+Exemplo: "$ git checkout bfb4~1 arquivo.txt". - P. S.: Sem o nome do arquivo, serão restaurados todos os arquivos deletados no diretório.
+
