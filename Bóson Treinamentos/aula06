@@ -52,4 +52,3 @@ Identificamos um "commit" pelo seu nome, que é uma "string" de 40 caracteres ob
 - Retirando um arquivo da "staging area" (sem aspas): "git rm --cached nome do arquivo"
 
 - Excluindo uma pasta (sem aspas): "rm -rf nome da pasta/". | Exemplo: "$ rm -rf pasta-aleatória/".
-
