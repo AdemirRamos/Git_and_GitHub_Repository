@@ -1,0 +1,66 @@
+Curso de Git - Aula 04 - Comandos Iniciais do Git - Os "Três Estados"
+
+- Configurando um usuário no Git:
+
+$ git config --global user.name "aqui vai o seu nome de usuário"
+
+O "--global" faz com que a configuração a ser aplicada seja global;
+O comando "user.name" serve para se atribuir o nome de usuário.
+
+- Configurando o e-mail do usuário:
+
+$ git config --global user.email "aqui vai o seu e-mail"
+
+- O comando (sem aspas) "pwd" nos mostra o diretório (caminho da pasta) atual no qual o Git está aberto.
+
+- O atalho "control + l" limpa a tela; outra opção para limpar a tela (sem aspas): "clear".
+
+- Criando um diretório:
+
+$ mkdir "nome da pasta" (sem aspas) | Exemplo: $ mkdir pasta-nova
+
+- O comando "ls" (sem aspas) nos mostra o conteúdo do diretório atual.
+
+- Criando um repositóiro local no diretório corrente:
+
+$ git init | Se pode adicionar um ponto após o comando: "git init .".
+
+- Criando um arquivo:
+
+$ touch "nome do arquivo.sua extensão" (o comando à esquerda deve ser escrito sem aspas) | Exemplo: "touch arquivo.txt".
+
+- O comando (sem aspas) "ls -l" nos mostra informações detalhadas sobre um arquivo.
+
+- O comando (sem aspas) "git status" nos mostra o atual estado do nosso repositório local/remoto.
+
+- Como rastrear um arquivo (sem aspas):
+
+- "git add .": rastreia todos os arquivos no diretório atual;
+- "git add nome do arquivo ou diretório": adiciona o arquivo selecionado;
+- "git *": também rastreia arquivos. 
+
+- Como "comitar" arquivos rastreados (sem aspas):
+
+- "git commit -m ''": o "-m" serve para indicar uma mensagem anexada ao "commit" - a mensagem deve ir entre aspas (simples ou duplas).
+
+- O comando (sem aspas) "git log" mostra o histórico de "commits".
+
+- O comando (sem aspas) "exit" sai do Git
+
+- Comandos do Git:
+
+Mais alguns dos comandos que serão mostrados nas próximas aulas:
+
+* init
+* clone
+* status
+* add
+* commit
+* push
+* pull
+* branch
+* merge
+* stash
+* diff
+* log
+* fetch
