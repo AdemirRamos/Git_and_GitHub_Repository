@@ -81,6 +81,7 @@ Dicas importantes
 
 - touch .gitignore;
 - o comando ls -a mostra o arquivo .gitignore - diferente de ls;
-- echo <nome do arquivo> >> .gitignore: faz com que o nome do arquivo/pasta sejam enviados para o .gitignore;
-- caso seja usado apenas um sinal de maior, o arquivo .gitignore terá o seu texto substituído pelo texto do arquivo/pasta no comando;
+- echo nome do arquivo >> .gitignore: faz com o arquivo/pasta seja enviado para o .gitignore;
+- caso seja usado apenas um sinal de maior, o arquivo .gitignore terá o seu texto substituído pelo texto no comando;
+- caso se erre o nome ".gitignore", será criado um novo arquivo com o nome errado e nele serão inseridos os arquivos;
 - o comando cat .gitignore nos mostra o que está dentro do arquivo .gitignore.
