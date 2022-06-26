@@ -1,0 +1,9 @@
+Curso de Git e GitHub - Aula 11 - Resolvendo Conflitos
+
+- Nota: Para resolver um conflito em uma "branch", o processo deve ser feito manualmente - escolhendo quais mudanças serão descartadas e quais não.
+
+- Nota: Ao se resolver conflitos, não é necessário se passar uma mensagem no "commit" referente à resolução do conflito - embora se possa incluir essa mensagem caso desejada.
+
+P. S.: O Git criará uma mensagem personalizada para casos como esses (acima).
+
+- A depender do Editor de Código/Texto, haverá um menu para resolução de conflitos.
