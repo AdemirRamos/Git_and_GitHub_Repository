@@ -1,0 +1,11 @@
+Curso de Git - Aula 08 - Comparar Alterações Nos arquivos com "git diff"
+
+- Revisar alterações atuais
+
+Podemos verificar as alterações realizadas nos arquivos no diretório de trabalho (cópia local) com o comando "git diff".
+
+"git diff" é o mesmo que "git diff HEAD".
+
+- O comando (sem aspas) "git diff nome do arquivo" mostra as alterações feitas no arquivo especificado.
+
+- O comando (sem aspas) "git diff --staged" mostra os arquivos modificados porém não consolidados (não "comitados" ainda).
