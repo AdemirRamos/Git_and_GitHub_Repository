@@ -7,3 +7,5 @@ Curso de Git e GitHub - Aula 10 - Fundindo "Branches"
 
 * Para fundir "branches", você deve ir até a "branch-destino" (normalmente "main");
 * Digite o comando (sem aspas) "git merge nome da 'branch' a ser fundida".
+
+P. S.: Quando fundimos "branches", também os seus 'commits' e históricos de 'commits' são fundidos.
