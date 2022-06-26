@@ -1,0 +1,13 @@
+Curso de Git e GitHub - Aula 03 - instalação e Configuração
+
+- O comando (sem aspas) "--version" mostra a versão de um determinado aplicativo.
+
+- O comando (sem aspas) "--list" cria uma lista de arquivos - esse comando pode ser combinado com outros. Exemplo: "git config --list"
+
+- O comando (sem aspas) "ls" listas o conteúdo das pastas.
+
+- O comando (sem aspas) "rmdir" exclui pastas.
+
+- O comando (sem aspas) "rm" remove arquivos.
+
+- O comando (sem aspas) "cd" significa "change directory".
