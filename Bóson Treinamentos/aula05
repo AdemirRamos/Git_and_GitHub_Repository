@@ -1,0 +1,9 @@
+Curso de Git - Aula 05 - Como Obter Ajuda Com Comando "help"
+
+- O comando (sem aspas) "git help" nos mostra os comandos gerais do Git;
+- Já o comando (sem aspas) "git help -a" nos mostra comandos mais específicos.
+- No caso do segundo comando ("git help -a"), é possível navegar para baixo e ver uma enorme lista de comandos;
+- Ao chegar no final dessa lista - ou em qualquer outro ponto dela -, se pode voltar ao "prompt" de comando ao pressionar a tecla "q".
+- Caso se queira saber sobre um comando em especial, basta digitar (sem aspas) "git help nome do comando buscado".
+- No caso do comando acima, ele abrirá uma página no navegador a respeito do comando buscado.
+- Ainda no caso do último comando comentado: a página web aberta é referente a um arquivo presente em um diretório na área de trabalho.
