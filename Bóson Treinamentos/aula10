@@ -1,0 +1,36 @@
+Curso de Git - Aula 10 - Como Reverter "Commits" Com "git revert"
+
+- Reverter "Commits"
+
+Eventualmente você terá a necessidade de reverter um "commit", por exemplo, por conta de erros cometidos nos arquivos.
+
+Desfazer um "commit" é, basicamente, "comitar" exatamente o oposto do "commit" em si. O Git, na prática, cria um novo "commit" com as mudanças opostas.
+
+Para tal, usamos o comando "git revert".
+
+Com o "git revert" podemos desfazer as mudanças em um "commit", mantendo alterações posteriores intactas.
+
+Os arquivos retornam ao mesmo estado como se o "commit" revertido nunca tivesse existido.
+
+O "git revert" é, em si, um "commit". Por isso, não é necessário fazer mais nada após executar esse comando.
+
+- Comando "git revert"
+
+Sintaxe: "git revert <hash do commit>";
+
+Para reverter especificamente o último "commit", podemos usar também: "git revert HEAD".
+
+- Nota: Caso um "git revert" altere um arquivo que, por sua vez, altere outros arquivos, pode haver um erro de "merge";
+- Nota: Nesse caso (acima), podemos usar o comando a seguir:
+
+- Cancelar uma operação "revert":
+
+Cancelar uma operação "git revert" com erros (sem aspas): "git revert --abort".
+
+- Regras Importantes:
+
+1. Deve-se trabalhar em um diretório de trabalho limpo. Executar sem "git add" e "git commit" antes de tentar revert um "commit".
+
+2. Novamente: Não mude o passado - ao menos, não por enquanto.
+
+- O comando (sem aspas) "git log --oneline" mostra uma sequência de "commits" feitos no diretório corrente.
