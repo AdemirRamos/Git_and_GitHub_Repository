@@ -1,0 +1,7 @@
+Curso de Git e GitHub - Aula 04 - Criando Repositórios
+
+- O comando "mv" server para mudar pastas e arquivos de diretórios;
+
+- Caso uma pasta ou arquivo seja movido para o mesmo diretório, é possível renomeá-la (o) com "mv";
+- Exemplo: "mv nome do arquivo/pasta diretório para onde será movido novo nome do arquivo";
+- Exemplo: "mv arquivo.txt pasta-exercício novo-arquivo.txt".
