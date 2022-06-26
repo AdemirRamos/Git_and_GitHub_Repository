@@ -1,0 +1,5 @@
+Curso de Git e GitHub - Aula 14 - Fazendo "Pull Request" (PR)
+
+- O comando (sem aspas) "git checkout -b nome da 'branch'" cria uma "brach" e faz o "checkout" automático.
+
+- Para mais detalhes, ver a aula 14 do curso de Git e GitHub.
