@@ -21,3 +21,11 @@ P. S.: A bandeira ("flag") "-m ''" pode ir tanto antes quanto depois de "--amend
 - O comando (sem aspas) "git mv <nome do arquivo> <diretório>" move um arquivo de lugar.
 
 - Mover e Renomear Arquivos no Git: https://dev.to/womakerscode/tutorial-git-renomeando-ou-movendo-arquivos-do-git-10m
+
+.gitignore: https://pt.stackoverflow.com/questions/239885/quais-arquivos-de-um-projeto-mean-devo-enviar-ao-github
+
+- Git: navegação entre pastas: https://cursos.alura.com.br/forum/topico-navegacao-entre-pastas-90019
+
+- Comentando "commits": https://stackoverflow.com/questions/16122234/how-to-commit-a-change-with-both-message-and-description-from-the-command-li
+
+- Desfazer comandos: https://metring.com.br/git-desfazendo-mudancas-locais
