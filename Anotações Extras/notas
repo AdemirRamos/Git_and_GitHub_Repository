@@ -1,3 +1,23 @@
-Anotação
-$'\n\nOutra anotação'
-\n\nMais uma anotação.
+- O "commit amend" funciona muito bem enquanto um arquivo não foi consolidado, caso isso tenha acontecido, será necessário forçar uma sobrescrição de arquivos - para reparar a mensagem do "commit" e isso pode afetar todo o projeto.
+
+- O comando (sem aspas) "git commit --amend (-m '')" nos permite reescrever a mensagem do último "commit".
+
+P. S.: A bandeira ("flag") "-m ''" pode ir tanto antes quanto depois de "--amend".
+
+- O comando "git reflog" nos mostra o "commit" com a mensagem original e o "commit" com a mensagem modificada.
+
+- O comando (sem aspas) "git push --force" força o "push" para o repositório - caso apareça algum conflito, ele também se repetirá para todas as outras pessoas com acesso a este repositório.
+
+- "git --amend" referência: https://dev.to/womakerscode/tutorial-git-corrigindo-o-ultimo-commit-no-git-4jp3
+
+- Para criar pastas e arquivos com nomes compostos, basta abrir aspas (simples ou duplas) e escrever o nome dentro delas. Exemplo: "$ mkdir 'Meu Nome'".
+
+- Como quebrar linhas nos "commits" do Git: 1) $'Linha 1 \n Linha 2' | 2) git commit -m "linha 1" -m -m "Linha 2".
+
+- Quebra de linha no Git (referência): https://stackoverflow.com/questions/5064563/add-line-break-to-git-commit-m-from-the-command-line.
+
+- O comando (sem aspas) "git mv <nome antigo> <nome novo>" renomeia arquivos via Git;
+
+- O comando (sem aspas) "git mv <nome do arquivo> <diretório>" move um arquivo de lugar.
+
+- Mover e Renomear Arquivos no Git: https://dev.to/womakerscode/tutorial-git-renomeando-ou-movendo-arquivos-do-git-10m
