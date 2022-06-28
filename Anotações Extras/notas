@@ -28,4 +28,4 @@ P. S.: A bandeira ("flag") "-m ''" pode ir tanto antes quanto depois de "--amend
 
 - Comentando "commits": https://stackoverflow.com/questions/16122234/how-to-commit-a-change-with-both-message-and-description-from-the-command-li
 
-- Desfazer comandos: https://metring.com.br/git-desfazendo-mudancas-locais 1
+- Desfazer comandos: https://metring.com.br/git-desfazendo-mudancas-locais
