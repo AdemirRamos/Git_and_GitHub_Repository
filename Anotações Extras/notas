@@ -22,7 +22,7 @@ P. S.: A bandeira ("flag") "-m ''" pode ir tanto antes quanto depois de "--amend
 
 - Mover e Renomear Arquivos no Git: https://dev.to/womakerscode/tutorial-git-renomeando-ou-movendo-arquivos-do-git-10m
 
-.gitignore: https://pt.stackoverflow.com/questions/239885/quais-arquivos-de-um-projeto-mean-devo-enviar-ao-github
+- .gitignore: https://pt.stackoverflow.com/questions/239885/quais-arquivos-de-um-projeto-mean-devo-enviar-ao-github
 
 - Git: navegação entre pastas: https://cursos.alura.com.br/forum/topico-navegacao-entre-pastas-90019
 
